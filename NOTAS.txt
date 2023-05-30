@@ -1,0 +1,13 @@
+# O objetivo desse projeto é gerar uma imagem que possa rodar em qualquer servidor que utilize o Docker
+	- Instalação do robot framework
+	- Instalação do ChromeDriver e Webdriver
+	- Instalação das dependencias adicionadas no requirements.txt
+	- Instala certificados caso necessario
+		- Adicionar no arquivo cert.pem
+
+# Para realizar o build da imagem no servidor, ou na sua maquina para testes, ajustar o requireents.txt e adicinar o arquivo robot nesse path raiz
+	- Rodar o build da imagem:
+	- #./run.sh build
+
+# Para realizar o teste chamando o arquivo robot, rodar:
+	- #./run.sh <nome_arquivo.robot>
